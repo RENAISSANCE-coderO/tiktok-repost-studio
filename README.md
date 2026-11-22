@@ -8,6 +8,14 @@
 4. Double-cliquez sur **Lancer Repost Studio.bat** : l'app s'ouvre dans le navigateur sur `http://localhost:4300`.
 5. Dans **Paramètres et intégrations API**, collez **vos propres clés** (OpenRouter, FAL) ou activez votre abonnement Claude.
 
+**Ou avec Git** (une seule commande, dans PowerShell) : récupère exactement la version publiée `v1.0.0`.
+
+```powershell
+git clone --branch v1.0.0 https://github.com/RENAISSANCE-coderO/tiktok-repost-studio.git "$HOME\Documents\TikTok Repost Studio"
+```
+
+Puis suivez les étapes 3 à 5 dans ce dossier. Avec Claude Code, il suffit de lui coller le lien du dépôt et de lui demander de l'installer en version `v1.0.0`.
+
 Le numéro de version s'affiche en haut à gauche de l'app (`v1.0.0`).
 
 **Vos données restent chez vous.** L'app tourne uniquement sur votre ordinateur : vos clés sont dans le fichier `.env` et vos projets dans le dossier `data/`, jamais envoyés à l'auteur ni partagés. Le serveur n'accepte que les connexions de votre propre ordinateur et refuse les requêtes venant d'autres sites. Les seuls services contactés sont ceux que vous configurez (OpenRouter, FAL, Claude) et TikTok pour les liens que vous collez.
