@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Repost Studio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2314b8a6'/><path d='M12 9v14l11-7z' fill='white'/></svg>">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <span class="brand-mark">▶</span>
+      <div><strong>Repost Studio</strong><small>Orchestration IA TikTok <span id="appVersion"></span></small></div>
+    </div>
+    <nav id="nav"></nav>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <div id="projectBar" class="project-bar"></div>
+    </header>
+    <main id="view" class="view"></main>
+  </div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

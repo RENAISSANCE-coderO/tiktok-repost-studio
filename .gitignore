@@ -1,0 +1,13 @@
+node_modules/
+# Données personnelles : projets, réglages, historique, échantillons de voix
+data/
+# Clés API
+.env
+.env.*
+!.env.example
+# Fichiers personnels et d'éditeur
+.vscode/
+PROMPT-CREATION-APP.md
+*.log
+Thumbs.db
+.DS_Store

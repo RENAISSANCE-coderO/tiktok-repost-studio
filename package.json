@@ -1,0 +1,12 @@
+{
+  "name": "tiktok-repost-studio",
+  "version": "1.0.0",
+  "description": "Automatisation de reposts TikTok améliorés : extraction de script, réécriture IA, voix off, montage 9:16, export et publication.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  }
+}
